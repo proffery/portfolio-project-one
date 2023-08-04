@@ -49,8 +49,6 @@ html {
 
 
 body {
-  display: flex;
-  font-size: var(--main-font);
   font-weight: 400;
   font-family: 'Centra', sans-serif !important;
   color: var(--font-color) !important;
@@ -59,6 +57,10 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   position: relative;
+  background-image: url('./assets/img/banner-bg.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -80,9 +82,8 @@ a:hover {
 }
 
 img {
-  width: 50%;
+  min-width: 60%;
   height: auto;
-  filter: invert();
 }
 
 button {
@@ -122,7 +123,11 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-    width: 9%;
+  width: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: invert();
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -170,6 +175,7 @@ span.navbar-text {
   transform: scale(1);
 }
 .social-icon a img {
+  filter: invert();
 	width: 40%;
 	z-index: 1;
 	transition: 0.3s ease-in-out;
@@ -261,10 +267,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .banner .tagline {
   font-weight: 700;
