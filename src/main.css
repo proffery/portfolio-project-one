@@ -59,7 +59,7 @@ body {
   position: relative;
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
