@@ -1,5 +1,6 @@
 import { Col } from "react-bootstrap"
 
+// eslint-disable-next-line react/prop-types
 const ProjectCard = ({ title, description, imgUrl }) => {
     return (
         <Col sm={6} md={4}>
