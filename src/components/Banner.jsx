@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
-import headerImg from '../assets/img/header-img.svg'
-
 
 const Banner = () => {
     const [loopNumber, setLoopNumber] = useState(0)
@@ -52,7 +50,7 @@ const Banner = () => {
                         <button onClick={() => {console.log('connect')}}>Connect<ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col className='d-flex' xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Header Image" />
+                        <img src='./assets/img/header-img.svg' alt="Header Image" />
                     </Col>
                 </Row>
             </Container>

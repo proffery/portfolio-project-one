@@ -1,19 +1,19 @@
 /*Custom fonts*/
 @font-face {
   font-family: Centra;
-  src: url('./assets/font/CentraNo2-Bold.ttf');
+  src: url('../assets/font/CentraNo2-Bold.ttf');
   font-weight: 700;
 }
 
 @font-face {
   font-family: Centra;
-  src: url('./assets/font/CentraNo2-Medium.ttf');
+  src: url('../assets/font/CentraNo2-Medium.ttf');
   font-weight: 500;
 }
 
 @font-face {
   font-family: Centra;
-  src: url('./assets/font/CentraNo2-Book.ttf');
+  src: url('../assets/font/CentraNo2-Book.ttf');
   font-weight: 400;
 }
 
@@ -49,7 +49,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   position: relative;
-  background-image: url('./assets/img/banner-bg.png');
+  background-image: url('../assets/img/banner-bg.png');
   background-position: top center;
   background-size: contain;
   background-repeat: no-repeat;

@@ -1,23 +1,19 @@
 import { Container, Row, Col, Nav, Tab, TabPane } from "react-bootstrap"
 import { ProjectCard } from "./ProjectCard"
-import projImg1 from '../assets/img/project-img1.png'
-import projImg2 from '../assets/img/project-img2.png'
-import projImg3 from '../assets/img/project-img3.png'
-import colorSharp2 from '../assets/img/color-sharp2.png'
 
 const Projects = () => {
     const projects = [{
         title: "Blog Application",
         description: "Design & Development",
-        imgUrl: projImg1
+        imgUrl: './assets/img/project-img1.png'
     }, {
         title: "Shopping Card",
         description: "Design & Development",
-        imgUrl: projImg2
+        imgUrl: './assets/img/project-img2.png'
     }, {
         title: "Memory Card Game",
         description: "Design & Development",
-        imgUrl: projImg3
+        imgUrl: './assets/img/project-img3.png'
     }]
     
     return (
@@ -62,7 +58,7 @@ const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={colorSharp2} />
+            <img className="background-image-right" src='./assets/img/color-sharp2.png' />
         </section>
     )
 }
